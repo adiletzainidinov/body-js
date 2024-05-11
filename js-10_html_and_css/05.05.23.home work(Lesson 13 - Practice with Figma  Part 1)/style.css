@@ -1,0 +1,479 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy-Bold', sans-serif;
+  /* font-family: 'Gilroy-Heavy', sans-serif;
+  font-family: 'Gilroy-Light', sans-serif;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: 'Gilroy-Regular', sans-serif; */
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #ffffff;
+}
+.container {
+  width: 90.3125rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* HEADER START */
+.header {
+  width: 58.7875rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.link-item > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.09375rem;
+  margin-bottom: 1.995rem;
+  list-style: none;
+}
+.link-item-a1 > a {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.125rem;
+  color: #070707;
+}
+.link-item-a2 > a,
+.link-item-a3 > a,
+.link-item-a4 > a,
+.link-item-a5 > a {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.125rem;
+  color: #828282;
+}
+.row {
+  width: 100%;
+  border: 1px solid #828282;
+}
+/* стили для бургер-меню */
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1.125rem;
+  cursor: pointer;
+  display: none;
+}
+
+.burger-menu__line {
+  width: 1.5625rem;
+  height: 0.1875rem;
+  background-color: #333;
+}
+/* HEADER FINISH */
+
+/* HERO START */
+.hero {
+  width: 58.9756rem;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 2.480625rem;
+  margin-bottom: 6.50375rem;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  font-family: 'Gilroy-Bold';
+  font-size: 2.9587rem;
+  line-height: 3.6875rem;
+  color: #070707;
+  margin-bottom: 1.915rem;
+}
+.about-life {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #070707;
+}
+.language {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #828282;
+  display: inline-block;
+  transform: rotate(-90deg);
+  transform-origin: center center;
+}
+.language > span {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #070707;
+}
+.img > img {
+  width: 100%;
+  max-width: 58.975625rem;
+  height: 24.1875rem;
+}
+
+/* HERO FINISH */
+
+/* ABOUT-ME START */
+#about-me {
+  background: #f6f6f6;
+}
+#about-me .about-me {
+  width: 100%;
+  max-width: 30.33375rem;
+  margin: 0 auto;
+  padding-top: 7.515625rem;
+  padding-bottom: 6.6875rem;
+}
+#about-me .about-me > h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 2.125rem;
+  text-align: center;
+  color: #070707;
+  color: #070707;
+  margin-bottom: 1.105625rem;
+}
+.parent-text,
+.text1,
+.text2 {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  color: #070707;
+}
+.text2 {
+  width: 20.33375rem;
+  display: inline-block;
+}
+
+/* ABOUT-ME FINISH */
+
+/* SKILLS START */
+.skills {
+  width: 100%;
+  max-width: 58.536875rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5.6875rem;
+  padding-bottom: 6.87875rem;
+}
+.main-content {
+  width: 100%;
+  max-width: 58.536875rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.caption > h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 2.125rem;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 4.31875rem;
+}
+.subtitle > p {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 5.218125rem;
+}
+.adobe-photoshop-star {
+  display: flex;
+  align-items: center;
+}
+.adobe-illustrator-star {
+  display: flex;
+  align-items: center;
+}
+.adobe-after-star {
+  display: flex;
+  align-items: center;
+}
+.figma-star {
+  display: flex;
+  align-items: center;
+}
+.adobe-photoshop-icon-star,
+.adobe-photoshop-icon-star5,
+.adobe-illustrator-icon-star,
+.adobe-illustrator-icon-star5,
+.adobe-after-icon-star,
+.adobe-after-icon-star5,
+.figma-icon-star,
+.figma-icon-star5 {
+  width: 1.625rem;
+  height: 1.625rem;
+  margin-right: 0.56375rem;
+}
+.adobe-photoshop-icon > img,
+.adobe-illustrator-icon > img,
+.adobe-after-icon > img,
+.figma-icon > img {
+  margin-bottom: 1.513125rem;
+}
+.icon-bottom-text,
+.adobe-illustrator-text,
+.adobe-after-text {
+  margin-bottom: 2.525625rem;
+}
+.figma-text {
+  margin-bottom: 3.56rem;
+}
+.adobe-photoshop-icon,
+.adobe-illustrator-icon,
+.figma-icon,
+.adobe-after-icon {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+
+/* SKILLS FINISH */
+
+/* FORTFOLIO START */
+#portfolio {
+  background: #f6f6f6;
+  padding-top: 7.058125rem;
+  padding-bottom: 6.1925rem;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title-portfolio > h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 2.125rem;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 2.9375rem;
+}
+.img-new-collection > img {
+  width: 100%;
+  max-width: 58.515rem;
+  height: 31.875rem;
+  margin-bottom: 2.805rem;
+}
+.subtitle-online > p {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+/* FORTFOLIO FINISH */
+
+/* REEBOK START */
+#reebok {
+  background: #f6f6f6;
+  padding-bottom: 6.1925rem;
+}
+.reebok {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img-reebok > img {
+  width: 100%;
+  max-width: 58.515rem;
+  height: 32.625rem;
+  margin-bottom: 2.805625rem;
+}
+.subtitle-reebok > p {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+/* REEBOK FINISH */
+
+/* BRAUN START */
+#braun {
+  background: #f6f6f6;
+  padding-bottom: 6.004375rem;
+}
+.braun {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img-braun > img {
+  width: 100%;
+  max-width: 58.515rem;
+  height: 32.625rem;
+  margin-bottom: 2.86875rem;
+}
+.subtitle-braun > p {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+
+/* BRAUN FINISH */
+
+/* FOOTER START */
+#footer {
+  padding-top: 7.14rem;
+  padding-bottom: 7.699375rem;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title-contacts > h1 {
+  font-family: 'Gilroy-Bold';
+  font-size: 2.125rem;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 1.251875rem;
+}
+.subtitle-welcome {
+  font-family: 'Gilroy-Medium';
+  font-size: 1.125rem;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 1.85rem;
+}
+.button > button {
+  font-family: 'Gilroy-Bold';
+  font-size: 1.125rem;
+  text-align: center;
+  color: #ffffff;
+  background: #070707;
+  width: 11.28125rem;
+  height: 2.625rem;
+  border-radius: 1.25rem;
+  border: none;
+  margin-bottom: 5.415rem;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 21.386875rem;
+  margin-bottom: 2.87375rem;
+}
+.subtitle-footer > p {
+  font-family: 'Gilroy-Medium';
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-align: center;
+  color: #828282;
+}
+/* FOOTER FINISH */
+
+/* MEDIA START------------------------MEDIA START */
+
+@media only screen and (max-width: 376px) {
+  /* body {
+    background: #ffffff;
+  } */
+  .container {
+    width: 19.78125rem;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .header {
+    display: none;
+  }
+  .burger-menu {
+    position: absolute;
+    left: 19.5rem;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .burger-menu__line {
+    width: 2.0625rem;
+    height: 0.24rem;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .name > h1 {
+    width: 7.75rem;
+    height: 6.625rem;
+    margin-bottom: 2rem;
+  }
+  .name {
+    margin-left: 3rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #about-me {
+    margin-left: 2.7rem;
+  }
+  .language {
+    display: none;
+  }
+  .img > img {
+    margin: 2.30875rem;
+    width: 19.78125rem;
+    height: 29.875rem;
+  }
+  .skills {
+    margin-left: 1.5rem;
+  }
+  .adobe-photoshop {
+    margin: 0 auto 5.106875rem;
+  }
+  .adobe-illustrator {
+    margin: 0 auto 5.106875rem;
+  }
+  .adobe-after {
+    margin: 0 auto 5.106875rem;
+  }
+  .figma {
+    margin: 0 auto 5.106875rem;
+  }
+  #portfolio {
+    margin-left: 2.7rem;
+  }
+  .img-new-collection > img {
+    width: 19.75rem;
+    height: 10.6875rem;
+    margin-bottom: 2.0625rem;
+  }
+  #reebok {
+    margin-left: 2.7rem;
+  }
+  .img-reebok > img {
+    width: 19.75rem;
+    height: 11rem;
+  }
+  #braun {
+    margin-left: 2.7rem;
+  }
+  .img-braun > img {
+    width: 19.75rem;
+    height: 11rem;
+  }
+  #footer {
+    margin-left: 2.7rem;
+  }
+.button > button {
+  width: 19.75rem;
+}
+
+}

@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0e5fe;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+}
+
+.title h1 {
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.wrapper {
+  margin-top: 90px;
+  background-color: #f0e5fe;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 20px;
+}
+
+.hamburger {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.foto{
+    width: 80px;
+    height: 80px;
+}
+
+/* .wrapper .top,
+.wrapper .midle,
+.wrapper .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+.wrapper .top .hamburger,
+.wrapper .top .coffee,
+.wrapper .midle .tea,
+.wrapper .midle .cola,
+.wrapper .bottom .cheeseburger,
+.wrapper .bottom .fries {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #6b5d96;
+}
+
+.wrapper .top .hamburger,
+.wrapper .top .coffee,
+.wrapper .midle .tea,
+.wrapper .midle .cola,
+.wrapper .bottom .cheeseburger,
+.wrapper .bottom .fries {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .top .hamburger p,
+.wrapper .top .coffee p,
+.wrapper .midle .tea p,
+.wrapper .midle .cola p,
+.wrapper .bottom .cheeseburger p,
+.wrapper .bottom .fries p {
+  color: white;
+  font-size: 30px;
+} */
+
+aside {
+  background-color: #c29ae0;
+  height: 100vh;
+}
+
+aside h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+}
+
+aside h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+aside .hamburger_aside,
+aside .tea_aside,
+aside .coffee_aside {
+  margin: 50px;
+  width: 90%;
+  height: 90px;
+  background-color: #cfa8f1;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+aside .hamburger_aside {
+  margin-top: 100px;
+}
+
+.click_btn {
+  width: 400px;
+  height: 80px;
+  background-color: #6d5c99;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 510px;
+  cursor: pointer;
+}
+
+aside .hamburger_aside p,
+aside .tea_aside p,
+aside .coffee_aside p {
+  margin-top: 30px;
+  margin-left: 130px;
+  font-size: 24px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 50fr 2fr 2fr 50fr 1fr;
+}

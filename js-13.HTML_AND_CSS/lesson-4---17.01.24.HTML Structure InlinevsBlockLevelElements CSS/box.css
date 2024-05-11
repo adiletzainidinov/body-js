@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    width: 400px;
+    margin: 20px auto;
+}
+.card_img {
+    width: 400px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 400px;
+}
+    
+.week {
+    font-weight: 600;
+    color: orange;
+    text-align: center;
+}
+.post {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+}
+.text {
+    color: gray;
+    margin-top: 20px;
+}
+.card_box {
+    padding: 20px;
+    border: 1px solid black;
+}
+.views {
+    background-color: orange;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.seven,
+.vie,
+.comments {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.vie-span {
+    font-size: 12px;
+}
+.com_span {
+    font-size: 12px;
+}
+
+/*-------------------card-finish--------------------------------- */
+
+.all_ticet {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.block {
+    width: 1400px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    display: flex;
+}
+.town {
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    display: inline-block;
+    margin-left: 20px;
+}
+.time {
+    color: rgb(21, 112, 112);
+    background-color: aqua;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    background-color: darkblue;
+    margin: 20px auto 10px auto;
+    border-radius: 5px;
+}
+.town_name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bir {
+    background-color: red;
+}
+.eki {
+    background-color: aqua;
+}
+.uch {
+    background-color: black;
+}
+
+/* ----------------hasan------------------------------------------- */
+
+.hasan {
+    width: 400px;
+    background-color: gray;
+    border-radius: 7px;
+    margin-left: 50px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+.hasan:hover {
+    opacity: 0.7;
+    background-color: blanchedalmond;
+}
+.hasan img {
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+.hasan_name {
+    text-align: center;
+    margin-top: 20px;
+}
+.hasan button {
+    padding: 10px 35px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+

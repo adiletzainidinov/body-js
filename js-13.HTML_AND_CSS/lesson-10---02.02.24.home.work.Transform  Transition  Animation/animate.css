@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f7d7b5;
+}
+
+p {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+  width: 1200px;
+  height: 600px;
+  background-color: aqua;
+  border: 5px solid #000000;
+  margin: 50px auto 0 auto;
+  border-radius: 10px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+}
+
+/* swing */
+
+.container h1:hover {
+  cursor: pointer;
+  animation: swing 1s infinite;
+}
+@keyframes swing {
+  from {
+    transform: translateX(10px) rotate(-25deg);
+  }
+  30% {
+    transform: translateX(-10px) rotate(25deg);
+  }
+  60% {
+    transform: translateX(10px) rotate(-25deg);
+  }
+  90% {
+    transform: translateX(-10px) rotate(25deg);
+  }
+  to {
+    transform: translateX(10px) rotate(-25deg);
+  }
+}
+
+/* backinup */
+
+.container h2 {
+  margin-right: 700px;
+  cursor: pointer;
+}
+.container h2:hover {
+  animation: backindown 1s infinite;
+}
+
+@keyframes backindown {
+  from {
+    opacity: 0;
+    transform: translateY(0px) scale(1);
+  }
+  5% {
+    opacity: 0;
+    transform: translateY(-300px) scale(0.8);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  to {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+/* zoomindown */
+
+.container h3 {
+  margin-left: 600px;
+  margin-top: -120px;
+  cursor: pointer;
+}
+
+.container h3:hover {
+  animation: zoomindown 1s infinite;
+}
+
+@keyframes zoomindown {
+  from {
+    opacity: 0;
+    transform: scale3d(-1, 0.1, 0.1) translate3d(0px, -390px, 0px);
+  }
+  70% {
+    opacity: 1;
+    transform: scale3d(2, 2, 2) translate3d(0px, 10px, 0px);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 00px);
+  }
+}
+
+/* sliden_down */
+
+.container h4 {
+  cursor: pointer;
+  margin-left: 680px;
+  margin-top: 80px;
+}
+
+.container h4:hover {
+  animation: slideindown 1.5s infinite;
+}
+
+@keyframes slideindown {
+  from {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(0, -50px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+/* rotateoutdownleft */
+
+.container h5 {
+  cursor: pointer;
+  margin-right: 670px;
+  margin-top: -100px;
+}
+
+.container h5:hover {
+    animation: rotateoutdownleft 1s infinite alternate;
+}
+
+@keyframes rotateoutdownleft {
+  from {
+    opacity: 1;
+    transform-origin: left bottom;
+  }
+  to {
+    opacity: 0;
+    transform-origin: left bottom;
+    transform: rotate3d(0,0,1,45deg);
+  }
+}

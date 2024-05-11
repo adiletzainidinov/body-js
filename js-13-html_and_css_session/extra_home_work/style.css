@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  width: 1300px;
+  min-height: 700px;
+  margin: 14px auto;
+  background-color: #4070f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.container {
+  width: 900px;
+  min-height: 600px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 20px 30px;
+}
+
+.input_papa h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.bottom_line {
+  width: 30px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #4070f4;
+  position: relative;
+  top: -33px;
+  left: 1.5px;
+  animation: registration 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes registration {
+    from {
+  transform: translateX(-3px);
+    }
+    to {
+       transform: translateX(109px);
+    }
+}
+
+.input_papa p,
+.input_papa h2 {
+  font-size: 20px;
+  color: #898989;
+  padding-bottom: 20px;
+  animation: placholder  6s infinite ease-in-out ;
+}
+
+@keyframes placholder {
+    from {
+  transform: translateX(-200px);   
+  opacity: 0; 
+    }
+  
+    20% {
+        transform: translateX(0px);
+        color: #4070f4;
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.input_papa h2 {
+  padding-top: 20px;
+}
+
+input {
+  width: 260px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.651);
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+.top_input,
+.bottom_input {
+  display: flex;
+  gap: 30px;
+}
+.top_input input,
+.bottom_input input {
+  margin: 10px 0;
+}
+
+.next_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next_btn button {
+  position: relative;
+  right: 870px;
+  top: 140px;
+  width: 280px;
+  padding: 15px;
+  color: white;
+  border-radius: 7px;
+  background-color: #4070f4;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-right: 40px;
+  animation: btn 0.3s infinite alternate;
+  cursor: pointer;
+}
+
+@keyframes btn {
+    from {
+        background-color: #4070f4;
+        transform: scale(1);
+    }
+    50% {
+        background-color: red;
+        transform: scale(1.2);
+    }
+    to {
+        background-color: #4070f4;
+        transform: scale(1.1);
+    }
+}
+
+.next_btn img {
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  top: 4px;
+}
+
+
+
+
+
+
+

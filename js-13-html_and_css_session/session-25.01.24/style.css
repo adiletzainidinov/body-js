@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 505px;
+  padding: 10px;
+}
+
+.first_block,
+.second_block,
+.third_block,
+.four_block,
+.five_block,
+.six_block {
+  width: 480px;
+  height: 91px;
+  text-align: center;
+}
+.first_block {
+  background-color: blueviolet;
+  position: relative;
+  left: 282px;
+  top: 55px ;
+}
+.second_block {
+  background-color: darkorchid;
+}
+.third_block {
+  background-color: red;
+}
+.four_block {
+  background-color: yellow;
+}
+.five_block {
+  background-color: blue;
+}
+.six_block {
+  background-color: aqua;
+}
+
+
+.map {
+    width: 400px;
+    height: 400px;
+}

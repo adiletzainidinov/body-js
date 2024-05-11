@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(131, 136, 148, 0.492);
+}
+.header {
+  background-color: rgba(67, 67, 67, 0.816);
+  width: 97.7vw;
+  margin-left: 0.67vw;
+  margin-top: 0.67vw;
+  height: 10vw;
+}
+.logo {
+  width: 9.6vw;
+  height: 4vw;
+  background-color: rgba(255, 0, 0, 0.652);
+  color: white;
+  text-align: center;
+  padding: 1.33vw;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.meny-1 {
+  width: 9.6vw;
+  height: 4vw;
+  background-color: rgba(16, 159, 90, 0.744);
+  color: white;
+  text-align: center;
+  padding: 1.33vw;
+  font-size: 1rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.meny-2 {
+  width: 9.6vw;
+  height: 4vw;
+  background-color: rgba(16, 159, 90, 0.744);
+  color: white;
+  text-align: center;
+  padding: 1.33vw;
+  font-size: 1rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.meny-3 {
+  width: 9.6vw;
+  height: 4vw;
+  background-color: rgba(16, 159, 90, 0.744);
+  color: white;
+  text-align: center;
+  padding: 1.33vw;
+  font-size: 1rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.button {
+  width: 6.37vw;
+  height: 7vw;
+  background-color: rgba(128, 16, 159, 0.805);
+  color: white;
+  text-align: center;
+  padding: 1.33vw;
+  font-size: 1rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-left: 20.67vw;
+}
+.left {
+  width: 66.67vw;
+  height: 30.56vw;
+  background-color: #37260fa3;
+}
+.section {
+  margin-top: 3.33vw;
+  margin-left: 0.67vw;
+}
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5 {
+  width: 28.33vw;
+  height: 5.24vw;
+  background-color: aliceblue;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 0.67vw;
+}
+.yellow-1,
+.yellow-2,
+.yellow-3,
+.yellow-4 {
+  width: 22vw;
+  height: 22vw;
+  background-color: rgb(234, 234, 2);
+}
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+
+.white-right,
+.white-left {
+  width: 35vw;
+  height: 50.33vh;
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.section3 {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section4 {
+  background-color: rgba(12, 127, 234, 0.801);
+  width: 98%;
+  /* margin-left: 3rem; */
+  margin: 0 auto;
+  margin-top: 1rem;
+  height: 50vh;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.kvadrat1 {
+  width: 10rem;
+  height: 20rem;
+  background-color: #cc8923;
+}
+
+.kvadrat2 {
+  width: 20rem;
+  height: 10rem;
+  background-color: #cc8923;
+}
+
+.kvadrat3 {
+  width: 10rem;
+  height: 10rem;
+  background-color: #cc8923;
+}
+
+.kvadrat4 {
+  width: 16.66%;
+  height: 10.66vh;
+  background-color: #cc8923;
+}
+
+/* ADAPTED DESIGN */
+
+@media (min-width: 451px) and (max-width: 767px) {
+  .button {
+    display: none;
+  }
+  .header {
+    width: 100%;
+    height: 10vh;
+    background-color: #4323cfb3;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section {
+    margin-top: 3vh;
+  }
+  .logo {
+    width: 13.8vh;
+    height: 5vh;
+    margin-right: 2vh;
+  }
+  .meny-1 {
+    width: 13.8vh;
+    height: 5vh;
+    font-size: 2.3vh;
+    white-space: nowrap;
+  }
+  .meny-2 {
+    width: 13.8vh;
+    height: 5vh;
+    font-size: 2.3vh;
+    white-space: nowrap;
+  }
+
+  .meny-3 {
+    width: 13.8vh;
+    height: 5vh;
+    font-size: 2.3vh;
+    white-space: nowrap;
+  }
+  .nav {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 6vh;
+  }
+  .left {
+    width: 60%;
+    height: 30vh;
+  }
+  .block-1,
+  .block-2,
+  .block-3,
+  .block-4,
+  .block-5 {
+    width: 35vh;
+    height: 5vh;
+    margin-left: 2vh;
+  }
+  .section2 {
+    flex-wrap: wrap;
+  }
+  .yellow-1,
+  .yellow-2,
+  .yellow-3,
+  .yellow-4 {
+    width: 48%;
+    height: 170px;
+  }
+  .yellow-1 {
+    position: relative;
+    bottom: 17vh;
+  }
+  .yellow-2 {
+    position: relative;
+    bottom: 17vh;
+  }
+  .yellow-3 {
+    position: relative;
+    bottom: 16vh;
+  }
+  .yellow-4 {
+    position: relative;
+    bottom: 16vh;
+  }
+  .section3 {
+    position: relative;
+    bottom: 34vh;
+  }
+  .white-left {
+    width: 35vh;
+    height: 27vh;
+  }
+  .white-right {
+    width: 35vh;
+    height: 27vh;
+  }
+  .section4 {
+    flex-wrap: wrap;
+  }
+  .kvadrat1 {
+    width: 15vh;
+    height: 20vh;
+    margin: 5px 5px;
+  }
+  .kvadrat2 {
+    width: 29vh;
+    height: 9vh;
+    margin: 5px 5px;
+  }
+  .kvadrat3 {
+    width: 15vh;
+    height: 15vh;
+    margin: 5px 5px;
+  }
+  .kvadrat4 {
+    width: 29vh;
+    height: 7vh;
+    margin: 5px 5px;
+  }
+  .section4 {
+    position: relative;
+    bottom: 41vh;
+  }
+}
+
+/* MOBILE DESIGN */
+
+@media (min-width: 0px) and (max-width: 451px) {
+  .button {
+    display: none;
+  }
+  .header {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #98b214;
+  }
+
+  .logo {
+    margin: auto;
+    width: 30%;
+    height: 50%;
+    padding: 4vh;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 40%;
+    margin-left: 1vw;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-right: 1vw;
+  }
+
+  .meny-1,
+  .meny-2,
+  .meny-3 {
+    align-self: flex-end;
+    margin-right: 10px;
+  }
+  .meny-1 {
+    width: 19.6vw;
+    height: 8vw;
+    background-color: rgba(16, 159, 90, 0.744);
+    color: white;
+    text-align: center;
+    padding: 1.33vw;
+    font-size: 1rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .meny-2 {
+    width: 19.6vw;
+    height: 8vw;
+    background-color: rgba(16, 159, 90, 0.744);
+    color: white;
+    text-align: center;
+    padding: 1.33vw;
+    font-size: 1rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .meny-3 {
+    width: 19.6vw;
+    height: 8vw;
+    background-color: rgba(16, 159, 90, 0.744);
+    color: white;
+    text-align: center;
+    padding: 1.33vw;
+    font-size: 1rem;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+  .section {
+    margin-top: 3.33vw;
+    margin-left: 0.67vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 98%;
+    height: 40vh;
+    background-color: #37260fa3;
+    margin-bottom: 2vh;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 0.67vw;
+  }
+  .block-1,
+  .block-2,
+  .block-3,
+  .block-4,
+  .block-5 {
+    width: 97.33vw;
+    height: 11.24vw;
+    background-color: aliceblue;
+    margin-bottom: 2vh;
+  }
+  .yellow-1,
+  .yellow-2,
+  .yellow-3,
+  .yellow-4 {
+    width: 98%;
+    height: 62vw;
+    background-color: rgb(234, 234, 2);
+    margin-bottom: 2vh;
+  }
+  .yellow-1 {
+    margin-bottom: none;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .white-right,
+  .white-left {
+    width: 98%;
+    height: 49.33vh;
+    background-color: white;
+    margin-left: 0.3rem;
+    margin-right: 0.1rem;
+    margin-bottom: 2vh;
+  }
+
+  .section3 {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .white-left {
+    margin-bottom: none;
+  }
+  .section4 {
+    background-color: rgba(12, 127, 234, 0.801);
+    width: 98%;
+    /* margin-left: 3rem; */
+    margin: 0 auto;
+    /* margin-top: 1vh; */
+    height: 100vh;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+  .kvadrat1 {
+    width: 10rem;
+    height: 13rem;
+    background-color: #cc8923;
+  }
+
+  .kvadrat2 {
+    width: 24rem;
+    height: 7rem;
+    background-color: #cc8923;
+  }
+
+  .kvadrat3 {
+    width: 8rem;
+    height: 8rem;
+    background-color: #cc8923;
+  }
+
+  .kvadrat4 {
+    width: 24rem;
+    height: 10.66vh;
+    background-color: #cc8923;
+  }
+}

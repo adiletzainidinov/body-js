@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  width: 50%;
+  margin: 20px auto;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+body {
+  background-color: antiquewhite;
+  padding-top: 50px;
+}
+
+.table_header {
+  background-color: #3498bd;
+  color: white;
+}
+
+.table_header th {
+  padding: 10px;
+  text-align: left;
+}
+
+.table_tr td {
+  padding: 15px;
+}
+
+.delete_btn {
+  cursor: pointer;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.edit_btn {
+  cursor: pointer;
+  border: none;
+  background-color: aqua;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.last_td {
+  text-align: end;
+}
+.table_tr:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+/* --------------------------table-2--------------------------------------------- */
+
+.table_cash {
+  width: 100%;
+  border-collapse: separate;
+  border: 1px solid black;
+}
+
+.table_head th,
+.table_head td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: left;
+}
+.pay {
+  background-color: green;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* .table_head:nth-child(odd) {
+    background-color: aqua;
+} выбирает все нечетные элементы  */
+
+/* .table_head:nth-child(even) {
+    background-color: aqua;
+} выбирает все четные элементы */
+
+/* .table_head:nth-child(3n) {
+    background-color: aqua;
+} выбирает каждый 3й элемент */
+
+.table_title th {
+  border: 1px solid black;
+}
+
+/* --------------------form------------------------------------------- */
+
+label {
+  display: block;
+}
+input {
+  display: block;
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid green;
+  transition-duration: 0.3s;
+}
+input:focus {
+  background-color: aquamarine;
+}
+input::placeholder {
+  color: #031115;
+}

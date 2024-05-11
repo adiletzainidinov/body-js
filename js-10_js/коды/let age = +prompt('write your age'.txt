@@ -1,0 +1,38 @@
+// let age = +prompt('write your age');
+// if (age === 18) {alert(true);}
+// else if (age < 18)
+// {alert(false);}
+
+// let day = +prompt('write which time')
+// if (day >= 6 && day < 12) {alert("morning");}
+// else if (day >= 12 && day < 18) {alert("day")}
+// else if ((day >= 18 && day < 24) || (day >= 0 && day < 6)) {alert("night")}
+
+// let firstName = prompt('write your name')
+// let lastName = prompt('write your name')
+
+// if (lastName === "" || firstName === "")
+// {alert("atundy jaz");}
+// else {
+//     alert("wi proshli validassiy");
+// }
+
+// let firstName = prompt('write your name')
+// let lastName = prompt('write your name')
+
+// let result = (lastName === "" || firstName === "") ? 'morning': 'day';
+// console.log('good job gay')
+// console.log(result)
+
+// let num = +'125'
+// console.log(num)
+
+// let num = 125;
+// let result = '' + num;
+// console.log(result);
+
+let type = +prompt('just write');
+if (typeof type === "string") {alert( "сиздики текст");}
+else {
+    alert ("text emes");
+}

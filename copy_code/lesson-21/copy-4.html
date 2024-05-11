@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .js-button-you-tube,
+    .js-button-amazon,
+    .js-button-tweeter {
+      background-color: red;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+    .js-button:active {
+      background-color: blue;
+    }
+    .extra-class {
+      background-color: rgb(85, 14, 226);
+    }
+  </style>
+  <body>
+    <button class="btn">Click</button>
+    <p class="text"></p>
+
+    <script>
+      const myButton = document.querySelector('.btn');
+      function showExample() {
+        document.querySelector('.text').innerHTML = 'Helloo';
+      }
+
+      myButton.onclick = showExample;
+      myButton.onmouseleave = showExample;
+      myButton.addEventListener('click', () => {
+        showExample();
+      });
+
+      function changeButtonText(parametr){
+        console.log(btn.innerHTML);
+      const btn = document.querySelector(`.${parametr}`)
+      }
+      changeButtonText()
+    </script>
+
+    <h1>Helloo world</h1>
+
+    <button onclick="changeButtonText('btn js-button-you-tube')" class="js-button-you-tube">Subscribe</button>
+    <button onclick="changeButtonText('js-button-amazon')" class="js-button-amazon">Subscribe</button>
+    <button onclick="changeButtonText('js-button-tweeter')" class="js-button-tweeter">Subscribe</button>
+
+
+
+  </body>
+</html>

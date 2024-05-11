@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-color: rgba(186, 188, 190, 0.695);
+        }
+        
+        
+        tr td {
+            padding: 5px;
+            width: 170px;
+            border-color: rgb(204, 208, 211);
+            border-radius: 2px;
+        }
+        
+        tr th {
+            padding: 5px;
+            width: 170px;
+            border-color: rgb(204, 208, 211);
+            border-radius: 2px;
+        }
+        
+        td:not([contenteditable="true"]):not(:empty),
+        th:not(:empty) {
+            background-color: rgb(55, 186, 196);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px solid black">
+        <thead>
+          <tr>
+            <th>№</th>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Возраст</th>
+            <th>Место рождения</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

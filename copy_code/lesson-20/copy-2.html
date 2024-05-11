@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="playGame('Кайчы')">Кайчы</button>
+    <button onclick="playGame('Кудук')">Кудук</button>
+    <button onclick="playGame('Кагаз')">Кагаз</button>
+
+    <p class="result"></p>
+    <p class="moves"></p>
+    <p class="js-13_total"></p>
+
+    <button
+      onclick="
+totalResult.lose = 0
+totalResult.draw = 0
+totalResult.win = 0
+localStorage.removeItem('total');
+showResultFromLocalS();
+"
+    >
+      Очур
+    </button>
+
+    <script src="./copy-2.js"></script>
+  </body>
+</html>

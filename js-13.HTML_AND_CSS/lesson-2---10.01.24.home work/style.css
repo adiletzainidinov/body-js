@@ -1,0 +1,94 @@
+.button {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 20px;
+}
+.black-btn {
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+.yelloy-btn {
+    width: 140px;
+    height: 30px;
+    background-color: #FDD814;
+    color: black;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.green-btn {
+    width: 90px;
+    height: 40px;
+    background-color: #2EA44F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.violet-btn {
+    width: 110px;
+    height: 40px;
+    background-color: #7052b3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.whitewhithgrey-btn {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: #6C757D;
+    border-radius: 5px;
+    border-color: #6C757D;
+    border-width: 2px;
+}
+.blue-btn {
+    width: 240px;
+    height: 40px;
+    background-color: #0A66c2;
+    color: white;
+    border-radius: 50px;
+}
+.whitewhithblue-btn {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    color: #0A66c2;
+    border-radius: 50px;
+    border-color: #0A66c2;
+    border-width: 2px;
+}
+.link-amazon a {
+    color: #007185;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nike-font {
+    font-weight: 900;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.green-text {
+    color: #008800;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.text-just {
+    margin-left: 20px;
+}
+.yelloy-btn {
+    margin-left: 20px;
+
+}
+.orange-yellow-btn {
+    width: 110px;
+    height: 30px;
+    background-color: #ffa41c;
+    color: black;
+    border-radius: 50px;
+    border: none;
+}

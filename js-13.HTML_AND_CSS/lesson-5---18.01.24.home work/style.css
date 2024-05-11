@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box,
+.four_box,
+.five_box,
+.six_box,
+.seven_box,
+.eight_box {
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  background-color: rgb(241, 255, 220);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.for_all_box {
+  display: flex;
+  width: 100%px;
+  justify-content: space-between;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+.lets {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin: 100px auto;
+}
+.red_box {
+  width: 380px;
+  height: 330px;
+  border: 2px solid red;
+  margin: 10px auto;
+}
+.input {
+  padding: 30px;
+}
+.input input {
+  width: 290px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(29, 163, 197);
+  margin: 10px 0;
+}
+.input button {
+  width: 290px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(42, 42, 217);
+  border: none;
+  color: white;
+  margin: 10px 0;
+}
+.input label {
+  font-family: sans-serif;
+}
+
+/* --second-box---- */
+
+.second_box {
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  background-color: rgb(241, 255, 220);
+  margin: 0 auto;
+}
+.gradient_box {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(188, 41, 22, 0.748);
+  margin: 100px auto;
+  padding: 20px;
+}
+.accaunt_box {
+  width: 380px;
+  height: 330px;
+  border: 2px solid rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.395);
+  padding: 20px;
+}
+.input_next h1 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+.input_next p {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+}
+.input_next input {
+  width: 320px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.input_next button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(18, 139, 99);
+  color: white;
+  margin: 10px auto;
+  display: block;
+}
+
+/* --third-box--- */
+
+.third_box {
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  background-color: rgb(241, 255, 220);
+  margin: 0 auto;
+}
+.contact_box {
+  margin: 50px auto;
+  width: 600px;
+  height: 500px;
+  background-color: #444442;
+}
+.input_third h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+.input_third p {
+  color: #7b7b77;
+  font-family: sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+.name_third_input {
+  width: 500px;
+  height: 50px;
+  margin-left: 50px;
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 2px;
+}
+.name_third_input::placeholder {
+  padding-left: 20px;
+}
+.email_third_input {
+  width: 230px;
+  height: 50px;
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 2px;
+  margin: 30px 0 0 50px;
+}
+.number_third_input {
+  width: 230px;
+  height: 50px;
+  background-color: #2d2d2d;
+  border: none;
+  border-radius: 2px;
+  margin: 30px 0 0 36px;
+}
+.number_third_input::placeholder,
+.email_third_input::placeholder {
+  padding-left: 20px;
+}
+
+.input_third textarea {
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: #2d2d2d;
+}
+.input_third textarea::placeholder {
+  padding: 20px 0 0 20px;
+}
+.input_third button {
+  width: 120px;
+  color: white;
+  background-color: #4a8cfa;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  margin: 10px 0 0 430px;
+}
+
+/* --four-box--- */
+
+.registration_box {
+  width: 520px;
+  height: 250px;
+  background-color: white;
+  margin-top: 135px;
+  padding: 40px;
+}
+.registration_input h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.registration_input_text {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dbdede;
+  width: 500px;
+  color: #dbdede;
+  outline: none;
+}
+.registration_input_text::placeholder {
+  color: #7b7b77;
+}
+.birthday {
+  display: flex;
+}
+.input_birthdate input {
+  width: 15px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.birthdate {
+  width: 200px;
+  border: 1px solid #dbdede;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #7b7b77;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gender {
+  margin-top: 20px;
+  width: 200px;
+  height: 20px;
+  border-bottom: 1px solid #dbdede;
+}
+.gender label,
+.gender input,
+.gender select {
+  color: #7b7b77;
+}
+.gender select {
+  border: none;
+  outline: none;
+  width: 15px;
+  height: 10px;
+}
+.gender input {
+  margin-left: 116px;
+}
+.gender_birthdate_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class_option {
+  border-bottom: 1px solid #dbdede;
+}
+.class_option select {
+  width: 15px;
+  border: none;
+  outline: none;
+  margin-left: 466px;
+  color: #7b7b77;
+}
+.class_option p {
+  color: #7b7b77;
+}
+.registr_code {
+  border-bottom: 1px solid #dbdede;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.search_btn {
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #55b746;
+  color: white;
+  padding: 12px;
+}
+
+/* --five-box--- */
+
+.welcome_box {
+  width: 500px;
+  height: 390px;
+  background-color: white;
+  padding: 50px;
+  margin-top: 55px;
+}
+.welcome_box h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.welcome_box img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+  display: block;
+  margin: 30px 0 30px 180px;
+}
+.welcome_box input {
+  border-bottom: 2px solid #dbdede;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 300px;
+  margin-left: 100px;
+  padding: 10px;
+}
+.welcome_box label {
+  color: #7b7b77;
+  margin-left: 100px;
+  padding: 10px;
+}
+.welcome_box .bottom_btn {
+  border-bottom: 2px solid #2cd340;
+}
+.bottom_btn::placeholder {
+  color: black;
+}
+.welcome_box button {
+  width: 260px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #2cd340;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  margin-left: 130px;
+  box-shadow: 1px 14px 11px -9px rgba(34, 60, 80, 0.6);
+}
+
+/* --six-box---- */
+.rank_table {
+  width: 559px;
+  height: 559px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 20px;
+}
+.rank_table table {
+  width: 560px;
+  border-collapse: collapse;
+}
+.table_header {
+  border: none;
+  background-color: #019879;
+  padding: 10px;
+  color: white;
+}
+.table_header th {
+  text-align: start;
+  padding: 10px;
+}
+.border_th1 {
+  border-top-left-radius: 5px;
+}
+.border_th2 {
+  border-top-right-radius: 5px;
+}
+.table_body {
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.577);
+}
+.table_body td {
+    padding: 10px;
+}
+.table_body td:hover {
+    background-color: rgba(223, 223, 223, 0.738);
+    color: #019879;
+}
+.rank_table tr:nth-child(even) {
+    color: #019879;
+    background-color: rgba(223, 223, 223, 0.738);
+}
+
+/* --seven-box--- */
+
+.job_box {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.job_box table {
+  width: 540px;
+  border-collapse: collapse;
+}
+.job_box table tr th {
+  padding: 10px;
+  border: 1px solid rgb(177, 177, 177);
+  color: white;
+  background-color:#3598dc;
+ 
+}
+.job_box table tr td {
+  padding: 10px;
+  border: 1px solid rgb(177, 177, 177);
+  color: black;
+}
+.job_box table tr:nth-child(2n) {
+  background-color: #e2e2e2;
+}
+
+/* --eight-box--- */
+
+.age {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 30px;
+}
+.age table {
+  width: 540px;
+  border-collapse: collapse;
+}
+.age table tr th,
+.age table tr td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: start;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .js-button-you-tube,
+    .js-button-amazon,
+    .js-button-tweeter {
+      background-color: red;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 5px;
+    }
+    .js-button:active {
+      background-color: blue;
+    }
+    .extra-class {
+      background-color: rgb(85, 14, 226);
+    }
+  </style>
+  <body>
+    <button class="btn">Click</button>
+    <p class="text"></p>
+
+    <script>
+      const myBytton = document.querySelector('.btn');
+      function showExample() {
+        document.querySelector('.text').innerHTML = 'Helloo';
+      }
+      //   showExample();
+
+      myBytton.onclick = showExample;
+      myBytton.onmouseleave = showExample;
+      myBytton.addEventListener('click', () => {
+        showExample();
+      });
+    </script>
+
+    <h1>Helloo world</h1>
+
+    <button
+      onclick="changeButtonText('js-button-you-tube')"
+      class="js-button-you-tube"
+    >
+      Subscribe
+    </button>
+    <button
+      onclick="changeButtonText('js-button-amazon')"
+      class="js-button-amazon"
+    >
+      Subscribe
+    </button>
+    <button
+      onclick="changeButtonText('js-button-tweeter')"
+      class="js-button-tweeter"
+    >
+      Subscribe
+    </button>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <p>Если значение больше 40 + , Если меньше 40 -</p>
+
+    <input
+      class="js-input"
+      onkeyup="if (event.code === 'Enter'){calculate()}"
+    />
+    <button ondblclick="calculate()" class="calc">Calculate</button>
+    <p class="result"></p>
+
+    <hr />
+    <hr />
+    <hr />
+
+    <input type="text" class="input2" oninput="showInputValue()" />
+    <h5 class="heading"></h5>
+
+    <script>
+      function showInputValue() {
+        console.log(event);
+        console.log(event.target.value);
+        document.querySelector('.heading').innerText = event.target.value;
+        const res = document.querySelector('.input2').value;
+        document.querySelector('.heading').innerText = res;
+      }
+
+      let inputValue = document.querySelector('.js-input');
+      let result = document.querySelector('.result');
+      function calculate() {
+        let total = 0;
+        const newInputValue = Number(inputValue.value);
+        if (newInputValue > 40) {
+          total = 40 + newInputValue;
+        } else {
+          total = 40 - newInputValue;
+        }
+        result.innerHTML = total;
+      }
+
+      function changeButtonText(parametr) {
+        console.log(btn.innerText);
+        const btn = document.querySelector(`${parametr}`);
+
+        if (btn.innerText === 'Subscribe') {
+          btn.innerHTML = 'Subscribed';
+          btn.classList.toggle('extra-class');
+        } else {
+          btn.innerHTML = 'Subscribe';
+          btn.classList.toggle('extra-class');
+        }
+      }
+
+      const heading = document.querySelector('h1');
+      console.log(heading);
+      a = 'Talas';
+      console.log(a);
+      heading.innerText = a;
+      console.log(window.a);
+      window.userNumber = '3242423';
+      window.alert('window');
+      let user = {
+        name: 'Nursultan',
+        age: 44,
+        teacher: true,
+        money: undefined,
+        friends: null,
+      };
+      console.log(typeof user.age);
+      console.log(typeof user.name);
+      console.log(typeof user.teacher);
+      console.log(typeof user.money);
+      console.log(typeof null);
+      console.log(typeof alert);
+
+      if (typeof user.age === 'number') {
+        console.log(user.age + 234);
+      }
+    </script>
+  </body>
+</html>

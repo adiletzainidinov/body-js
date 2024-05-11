@@ -1,0 +1,84 @@
+Адилет Зайнидинов
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration:  none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+#elements {
+    background: #10162F;
+    width: 1535px;
+    height: 222px;
+}
+.elements p {
+    font-size: 16px;
+    color: #FFFF;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.elements p a {
+     font-size: 16px;
+    color: #FFFF;
+    font-weight: 400;
+}
+.elements h1 {
+    font-size: 36px;
+    color: #FFFF;
+    font-weight: 700;
+    text-align: center;
+}
+.elements h2 {
+    font-size: 16px;
+    color: #FFFF;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cookies h1 {
+    width: 464px;
+    height: 248px;
+    background: #211E2F;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 100;
+    padding:20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    
+}
+.cookiesol {
+    color: #EA6C8B;
+}
+.cookiesli {
+    color: #EA6C8B;
+}
+.cookiesli2 {
+    color: #EA6C8B;
+}
+.cookiesol2 {
+    color: #EA6C8B;
+}
+.cookiesul {
+    color: #EA6C8B;
+}
+.cookiesul2 {
+    color: #EA6C8B;
+}   
+
+
+

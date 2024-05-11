@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./input.css" />
+    <title>Document</title>
+    <style>
+      .register-form {
+        max-width: 30vw;
+        margin: 0 auto;
+      }
+      .register-form > h1 {
+        padding: 5%;
+        background-color: #120404;
+        color: white;
+        text-align: center;
+        font-size: 200%;
+      }
+      .register_field {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 1vh;
+      }
+      .register_field > label {
+        flex-grow: 1;
+      }
+      .register_field > input,
+      select {
+        flex-grow: 2;
+      }
+
+      /* добавленные стили */
+      .register_field.radio-group {
+        display: flex;
+        align-items: center;
+      }
+      .register_field.radio-group label {
+        margin-right: 1rem;
+      }
+      input,
+      select {
+        outline: none;
+        padding: 1vh;
+        border-radius: 20px;
+      }
+      input:invalid {
+        border: 2px solid red;
+        background-color: rgba(255, 0, 0, 0.681);
+      }
+       input:focus select:focus {
+        border: 2px solid rgb(4, 35, 138);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form class="register-form">
+        <h1>registration form</h1>
+        <div class="register_field">
+          <label for="">username</label>
+          <input type="text" />
+        </div>
+        <div class="register_field">
+          <label for="">company name</label>
+          <input type="text" />
+        </div>
+        <div class="register_field">
+          <label for="">gmail address</label>
+          <input type="email" />
+        </div>
+        <div class="register_field">
+          <label for="">phone number</label>
+          <input type="tel" />
+        </div>
+        <div class="register_field">
+          <label for="">tehnologi</label>
+          <select name="" id="">
+            <option value="java script">java script</option>
+            <option value="typescript">typescript</option>
+            <option value="nodejs">nodejs</option>
+          </select>
+        </div>
+        <div class="register_field radio-group">
+          <p>are you existing customer?</p>
+          <input type="radio" id="yes" name="customer" />
+          <label for="yes">yes</label>
+          <input type="radio" id="no" name="customer" />
+          <label for="no">no</label>
+        </div>
+        <button type="submit">register</button>
+      </form>
+    </main>
+  </body>
+</html>

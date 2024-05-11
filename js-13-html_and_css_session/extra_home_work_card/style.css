@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  width: 1300px;
+  height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  border: 1px solid green;
+  background: url(./img/30ccee5a75c1c572ba85bd6885c5b68b.jpg) center
+    center/cover no-repeat;
+    position: relative;
+}
+
+.car_img {
+    position: absolute;
+    top: 200px;
+    left: 525px;
+    width: 250px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 100%;
+}
+
+.car_img img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    border: 4px solid #9f0b96;
+}
+
+.card {
+  width: 500px;
+  height: 520px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+
+.card h1 {
+  color: #898989;
+  font-size: 42px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.card p {
+  color: #898989;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.card h3 {
+  color: #898989;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  border-bottom: 2px solid #e4e4e4;
+  width: 450px;
+  display: inline-block;
+  margin-left: 25px;
+  padding-bottom: 20px;
+}
+
+.card h2 {
+  color: #898989;
+  font-size: 36px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img_icon {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.img_icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.img_icon .plus {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #4d4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_icon .plus p {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 7px;
+  margin-right: 2px;
+}
+
+.logo_icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logo_icon p {
+  font-size: 36px;
+}
+
+.facebook p,
+.dribble p,
+.twitter p,
+.pinterst p {
+  border-right: 1px solid #d3d3d3;
+padding: 0 7px;  
+}
+
+.linkedin p {
+    padding-left: 7px;
+}
+

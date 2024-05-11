@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.body {
+  background-color: #ffffff;
+}
+.main {
+  width: 1400px;
+  margin: 0 auto;
+}
+.container {
+  margin: 50px 0;
+  width: 1400px;
+  height: 650px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.kalpak {
+  background-color: #ffcc9d;
+}
+.kalpak_box {
+  margin: 100px auto 0 auto;
+  width: 80%;
+  height: 75%;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}
+.kalpak_box h2 {
+  font-size: 40px;
+  color: #8f9bb8;
+  text-align: center;
+  margin-top: 40px;
+}
+.kalpak_box p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #8f9bb8;
+  margin: 20px 0;
+  text-align: center;
+}
+.kalpak_box h3 {
+  font-size: 50px;
+  color: #8f9bb8;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.kalpak_box h5 {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+  font-size: 30px;
+  color: #8f9bb8;
+  position: absolute;
+  top: 445px;
+  left: 240px;
+}
+.kalpak_box button {
+  width: 150px;
+  padding: 10px;
+  color: white;
+  background-color: #f07d1f;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.kalpak_box img {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 180px;
+  height: 180px;
+}
+
+/* slak */
+.slak_papa {
+  background-color: #370b3d;
+}
+
+.slak_box {
+  width: 100%;
+  height: 97%;
+  background-color: #25112a;
+  margin-top: 20px;
+}
+.top_bac {
+  background-color: #1a1d22;
+}
+.nursultan_js {
+  display: flex;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.258);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.258);
+  padding-bottom: 25px;
+}
+.nursultan_ins {
+  width: 45px;
+  background-color: #ef511d;
+  color: white;
+  text-align: center;
+  padding: 9px;
+  border-radius: 7px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.nursultan_js h2 {
+  font-size: 32px;
+  color: #d0d1d5;
+  margin-top: 21px;
+  margin-left: 15px;
+}
+.nursultan_js select {
+  width: 20px;
+  background-color: none;
+  margin-top: 21px;
+}
+.green_icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #3baa78;
+  border: 3.2px solid black;
+  position: absolute;
+  top: 49px;
+  left: 46px;
+}
+.adilet_z {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.258);
+  border-left: 1px solid rgba(255, 255, 255, 0.258);
+  margin-left: 10px;
+  position: relative;
+}
+.adilet_icon {
+  width: 55px;
+  background-color: #47164a;
+  color: white;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  border-radius: 7px;
+  font-size: 36px;
+  margin-left: 95px;
+  margin-top: 20px;
+}
+.adilet_z h2 {
+  color: #d0d1d5;
+  font-size: 40px;
+  margin-top: 23px;
+}
+.adilet_z select {
+  width: 20px;
+}
+.adilet_icones {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000000;
+  border: 4px solid black;
+  position: absolute;
+  top: 59px;
+  left: 136px;
+}
+.white_line {
+  width: 12x;
+  height: 12px;
+  background-color: black;
+  border: 3px solid #a1a0a4;
+  border-radius: 50%;
+  text-align: center;
+}
+.hesh h2 {
+  padding: 50px 0;
+  background-color: #e4fef1;
+  font-size: 50px;
+}
+.hesh p,
+.hesh h3,
+.hesh h4,
+.hesh h5,
+.hesh h6 {
+  color: #716c73;
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 19px;
+}
+.hesh h3,
+.hesh h5 {
+  color: white;
+}
+.hesh h5 {
+  background-color: #311136;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+.hesh p span,
+.hesh h3 span,
+.hesh h4 span,
+.hesh h5 span,
+.hesh h6 span {
+  margin-right: 20px;
+}
+.hesh h3 span,
+.hesh h5 span {
+  color: #716c73;
+}
+
+/* --neffex-- */
+.neffex {
+  background-color: #dedede;
+}
+.neffex_card {
+  width: 90%;
+  height: 90%;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 3px rgba(34, 60, 80, 0.33);
+  background-color: #ffffff;
+  position: relative;
+}
+.neffex_card img {
+  width: 100%;
+  height: 70%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  opacity: 0.7;
+}
+.neffex_card h2,
+.neffex_card h3 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  left: 155px;
+}
+.neffex_card h3 {
+  color: #d5d6e1;
+  font-size: 20px;
+  top: 310px;
+  left: 170px;
+}
+.plus {
+  width: 60px;
+  padding: 8px;
+  color: white;
+  background-color: #f6575b;
+  font-size: 35px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0px 12px 16px 3px rgba(246, 87, 91, 0.33);
+  position: absolute;
+  top: 375px;
+  left: 190px;
+}
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+}
+.tweets h4,
+.folow h4,
+.folows h4 {
+  color: #dadada;
+  margin-bottom: 10px;
+}
+.tweets p,
+.folow p,
+.folows p {
+  color: black;
+  font-size: 28px;
+}
+
+/* ------------------------container-second--------------------------------------- */
+
+.second {
+  background-color: #5a7b9a;
+  position: relative;
+}
+.papa_box {
+  width: 80%;
+  height: 90%;
+  margin: 64px auto 0 auto;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+}
+.papa_box aside {
+  border: 2px solid #eeeeee;
+}
+.secondaside {
+  position: relative;
+  padding: 10px;
+}
+.second aside input {
+  width: 300px;
+  padding: 8px;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.second aside label {
+  position: absolute;
+  top: 8px;
+  left: 260px;
+}
+.contacts img,
+.papa_box img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.adilet_dooronbekov,
+.beishekeev_syimyk,
+.bikiev_bayel,
+.alisher_jumanov,
+.mirgyl,
+.kutman,
+.nurislam,
+.aidin_uruskeldiev,
+.omurbekov_alim,
+.nursultan_kenzhebaev,
+.zainidinov_adilet,
+.talgat_turaliev {
+  height: 39px;
+  display: flex;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.second aside .zainidinov_adilet {
+  background-color: #5f86a5;
+  height: 55px;
+  border-radius: 3px;
+  color: white;
+}
+aside .zainidinov_adilet img,
+aside .zainidinov_adilet .pandh {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.adilet_dooronbekov span,
+.beishekeev_syimyk span,
+.bikiev_bayel span,
+.alisher_jumanov span,
+.mirgyl span,
+.kutman span,
+.nurislam span,
+.aidin_uruskeldiev span,
+.omurbekov_alim span,
+.nursultan_kenzhebaev span,
+.zainidinov_adilet span {
+  color: #5f86a5;
+  margin-right: 2px;
+}
+.second main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.top h2 {
+  width: 98%;
+  border-bottom: 1px solid #b0b0b0;
+  margin-left: 16px;
+  margin-top: 15px;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+.top h2 span {
+  font-size: 14px;
+  color: #b0b0b0;
+  font-weight: 100;
+}
+.zainidinov_adilet h3,
+.talgat_turaliev h3,
+.zainidinov_adilet h3 {
+  color: #5f86a5;
+}
+.top_chat {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.zainidinov_adilet span,
+.talgat_turaliev span,
+.zainidinov_adilet span {
+  margin-left: 495px;
+  color: #b0b0b0;
+}
+.talgat_turaliev span {
+  margin-left: 530px;
+}
+.zainidinov_adilet .third {
+  margin-left: 566px;
+}
+.bottom img {
+  width: 45px;
+  height: 45px;
+}
+.atanbaev {
+  margin-left: 100px;
+}
+.bottom input {
+  width: 500px;
+  padding: 14px 0 16px 10px;
+  position: relative;
+  bottom: 20px;
+  border: none;
+  box-shadow: 0px 0px 10px 2px rgba(22, 128, 209, 0.2);
+  outline: none;
+}
+.bottom input::placeholder {
+  padding-left: 10px;
+}
+.bottom button {
+  position: absolute;
+  right: 575px;
+  bottom: 20px;
+  width: 60px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #7fb865;
+}
+.bottom {
+  margin-bottom: 35px;
+}
+.sadyr {
+  margin-left: 10px;
+}
+.iconka {
+  position: absolute;
+  right: 132px;
+  bottom: 20px;
+  font-size: 23px;
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
+  color: #d9d9d9;
+}
+
+/* --------------------container_third----------------------------- */
+
+.third {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+}
+aside {
+  background-color: #ffffff;
+  position: relative;
+}
+main {
+  background-color: #edeef2;
+  position: relative;
+}
+.last_box {
+  background-color: #e4fef1;
+}
+.head h1 {
+  font-size: 18px;
+  color: #3e6cc4;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.tochka {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 145px;
+}
+.nav {
+  margin: 60px 0 0 40px;
+  color: #282828;
+}
+.course,
+.announcement,
+.basket,
+.schedule {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.course {
+  background-color: #dde9f9;
+  position: relative;
+  right: 40px;
+  padding: 10px 0 10px 0;
+  padding-left: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 4px solid #256bca;
+}
+.course span,
+.announcement span,
+.basket span,
+.schedule span {
+  margin-right: 10px;
+}
+.line {
+  width: 97.2.6%;
+  height: 1.5px;
+  margin-top: 50px;
+  margin-left: 20px;
+  background-color: #dddee2;
+}
+.courses h2 {
+  margin-left: 20px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.js_course {
+  margin-left: 20px;
+  width: 180px;
+  height: 200px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+.top_simvol p {
+  font-size: 120px;
+  margin-left: 10px;
+  position: absolute;
+  top: 96px;
+}
+.bottom_info h2 {
+  padding-top: 130px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.bottom_info p {
+  margin-left: 10px;
+  font-size: 11px;
+  color: #282828;
+}
+
+/* ---------------------container_four--------------------------------- */
+
+.four {
+  background-color: #e4fef1;
+  position: relative;
+}
+.input_three {
+  width: 40%;
+  height: 50%;
+  background-color: #e1ecfe;
+}
+
+.input_three label {
+  margin-left: 10px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.input_three input {
+  width: 520px;
+  padding: 20px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+.input_three input::placeholder {
+  font-size: 20px;
+}
+.input_two {
+  width: 55%;
+  height: 35%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.input_two input {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  border: 1px solid #e7e7e7;
+  margin: 25px 30px;
+  font-size: 25px;
+}
+.input_one {
+  width: 60%;
+  height: 20%;
+  background-color: #252d3f;
+  margin-top: 60px;
+}
+.input_one input {
+  width: 90%;
+  padding: 20px;
+  outline: none;
+  border: 1px solid black;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.just_text {
+  font-size: 30px;
+  color: #5c7b94;
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+/* -------------------container-five----------------------------------------------- */
+.five {
+  background-color: #e4fef1;
+  display: grid;
+  grid-template-columns: 20fr 1fr 100fr;
+  grid-template-rows: 20fr 6fr;
+  position: relative;
+}
+.five aside {
+  background-color: #7f7f7f;
+}
+.five aside h2 {
+  color: white;
+  font-weight: 500;
+  margin: 10px 0 0 10px;
+}
+.five aside p,
+.five aside h3,
+.five aside h4 {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.five aside p {
+  margin-top: 90px;
+}
+.whites {
+  background-color: white;
+}
+.five main {
+  background-color: #93a5a5;
+}
+.five main h1 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.session_1,
+.session_2,
+.session_3 {
+  border: 1px solid white;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+.whatsapp {
+  position: fixed;
+  width: 80px;
+  height: 80px; 
+  bottom: 250px;
+  right: 150px;
+}

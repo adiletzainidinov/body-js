@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      .registr-form {
+        margin: 0 auto;
+        max-width: 30vw;
+      }
+      .registr-form > h1 {
+        background-color: rgb(4, 60, 60);
+        padding: 1vw;
+        font-size: 3vh;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 3vh;
+      }
+      .regist-fields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1vh;
+      }
+      .regist-fields > label {
+        flex-grow: 1;
+        align-self: flex-start;
+        margin-left: 15%;
+      }
+      .regist-fields > label {
+        flex-grow: 2;
+      }
+      input {
+        outline: none;
+        padding: 1vh;
+        border-radius: 20px;
+        width: 70%;
+      }
+      input:focus {
+        border: 3px solid #97a315;
+      }
+      input:active {
+        background-color: rgba(107, 99, 191, 0.841);
+      }
+      input:invalid {
+        border: 3px solid rgba(2, 148, 48, 0.975);
+        background-color: #e67667;
+      }
+      input[type='email']:invalid {
+        border: 3px solid rgb(149, 149, 149);
+        background-color: rgb(236, 142, 61);
+      }
+      input[type='email'] {
+        border-radius: 1px;
+        background-color: #9b1212;
+        width: 80%;
+        margin-left: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form class="registr-form">
+        <h1>Focus | Active | Invalid</h1>
+
+        <div class="regist-fields">
+          <label for="">First name:</label>
+          <input type="text" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Last name</label>
+          <input type="text" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Date:</label>
+          <input type="date" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Time:</label>
+          <input type="time" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Email:</label>
+          <input type="email" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Url:</label>
+          <input type="url" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">number:</label>
+          <input type="number" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">tel:</label>
+          <input type="tel" required />
+        </div>
+
+        <div class="regist-fields">
+          <label for="">Password:</label>
+          <input type="password" required />
+        </div>
+      </form>
+    </main>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </body>
+</html>
